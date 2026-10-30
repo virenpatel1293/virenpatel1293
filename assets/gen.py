@@ -1,7 +1,18 @@
 """Generates the custom animated SVGs for the GitHub profile README."""
+import json
 import os
 
-OUT = os.path.join(os.path.dirname(__file__), "assets")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
+if os.path.basename(os.path.dirname(os.path.abspath(__file__))) == "assets":
+    OUT = os.path.dirname(os.path.abspath(__file__))
+
+# Live numbers: written daily by scripts/update_stats.py (GitHub Action).
+with open(os.path.join(OUT, "stats.json"), encoding="utf-8") as _f:
+    S = json.load(_f)
+
+
+def fmt(n):
+    return f"{int(n):,}"
 SANS = "'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif"
 MONO = "SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace"
 
@@ -36,8 +47,9 @@ def hero():
       <text x="{70+len(tag)*10.5+44}" y="244" font-family="{SANS}" font-size="22" fill="{C['txt']}">{line}</text>
     </g>''')
 
-    pills = [("3.9k+", "contributions / yr", C["grn"]), ("295", "PRs opened in Oct", C["sky"]),
-             ("16", "repos shipped to in a month", C["vio"])]
+    pills = [(fmt(S["year_contributions"]), "contributions / yr", C["grn"]),
+             (fmt(S["prs_30d"]), "PRs in the last 30 days", C["sky"]),
+             (fmt(S["repos_30d"]), "repos shipped to in 30 days", C["vio"])]
     px, pill_svg = 70, []
     for n, lab, col in pills:
         w = len(n) * 11 + len(lab) * 7.4 + 40
@@ -128,7 +140,7 @@ def terminal():
         ("out", [("infra:    ", C["vio"]), ("[cloudflare workers, aws, pm2, github actions]", C["txt"])]),
         ("out", [("ai:       ", C["vio"]), ("[mcp servers, agent tooling]", C["txt"])]),
         ("cmd", "git log --author=viren --since=30.days --oneline | wc -l"),
-        ("out", [("459", C["amb"]), ("  // commits across 16 repos", C["mut"])]),
+        ("out", [(fmt(S["commits_30d"]), C["amb"]), (f"  // commits across {fmt(S['repos_30d'])} repos", C["mut"])]),
         ("cmd", "./ship.sh --env=production"),
         ("ok", "lint &amp; typecheck"),
         ("ok", "tests green"),
@@ -346,10 +358,10 @@ def architecture():
 # ---------------------------------------------------------------- TELEMETRY
 def telemetry():
     W, H = 1200, 250
-    tiles = [("3,981", "contributions", "last 12 months", C["grn"], 0.92),
-             ("464", "commits", "October 2026", C["sky"], 0.78),
-             ("295", "pull requests", "opened in October", C["vio"], 0.70),
-             ("17", "repositories", "shipped to in October", C["amb"], 0.60)]
+    tiles = [(fmt(S["year_contributions"]), "contributions", "last 12 months", C["grn"], 0.92),
+             (fmt(S["commits_30d"]), "commits", "last 30 days", C["sky"], 0.78),
+             (fmt(S["prs_30d"]), "pull requests", "last 30 days", C["vio"], 0.70),
+             (fmt(S["repos_30d"]), "repositories", "contributed to · 30 days", C["amb"], 0.60)]
     tw, gap, x0 = 264, 24, 42
     out = []
     for i, (num, lab, sub, col, frac) in enumerate(tiles):
@@ -378,7 +390,7 @@ def telemetry():
     <rect width="{W}" height="{H}" fill="{C['bg0']}"/>
     <rect width="{W}" height="{H}" fill="url(#grid)" opacity="0.35"/>
     <circle cx="44" cy="40" r="5" fill="{C['grn']}"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></circle>
-    <text x="58" y="45" font-family="{MONO}" font-size="14" fill="{C['txt']}">TELEMETRY <tspan fill="{C['mut']}">// including private &amp; organisation work</tspan></text>
+    <text x="58" y="45" font-family="{MONO}" font-size="14" fill="{C['txt']}">TELEMETRY <tspan fill="{C['mut']}">// including private &amp; organisation work · auto-updated {S['updated']}</tspan></text>
     {''.join(out)}
   </g>
   <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="18" fill="none" stroke="{C['grid']}"/>
