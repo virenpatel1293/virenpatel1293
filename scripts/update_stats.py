@@ -17,9 +17,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATS = os.path.join(ROOT, "assets", "stats.json")
 
 QUERY = """
-query($yfrom: DateTime!, $mfrom: DateTime!, $to: DateTime!) {
+query($mfrom: DateTime!, $to: DateTime!) {
   viewer {
-    year: contributionsCollection(from: $yfrom, to: $to) {
+    year: contributionsCollection {  # same window as the profile graph
       contributionCalendar { totalContributions }
     }
     month: contributionsCollection(from: $mfrom, to: $to) {
@@ -40,7 +40,6 @@ def main():
 
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
     variables = {
-        "yfrom": (now - dt.timedelta(days=365)).isoformat(),
         "mfrom": (now - dt.timedelta(days=30)).isoformat(),
         "to": now.isoformat(),
     }
