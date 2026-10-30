@@ -341,6 +341,51 @@ def architecture():
     write("architecture.svg", svg)
 
 
+
+
+# ---------------------------------------------------------------- TELEMETRY
+def telemetry():
+    W, H = 1200, 250
+    tiles = [("3,981", "contributions", "last 12 months", C["grn"], 0.92),
+             ("464", "commits", "October 2026", C["sky"], 0.78),
+             ("295", "pull requests", "opened in October", C["vio"], 0.70),
+             ("17", "repositories", "shipped to in October", C["amb"], 0.60)]
+    tw, gap, x0 = 264, 24, 42
+    out = []
+    for i, (num, lab, sub, col, frac) in enumerate(tiles):
+        x = x0 + i * (tw + gap)
+        cx, cy, r = x + 58, 140, 34
+        circ = 2 * 3.14159 * r
+        out.append(f'''
+    <g>
+      <rect x="{x}" y="70" width="{tw}" height="140" rx="14" fill="#0d1424" stroke="{col}" stroke-opacity="0.35"/>
+      <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{col}" stroke-opacity="0.15" stroke-width="7"/>
+      <circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{col}" stroke-width="7" stroke-linecap="round"
+        stroke-dasharray="{circ:.1f}" stroke-dashoffset="{circ:.1f}" transform="rotate(-90 {cx} {cy})">
+        <animate attributeName="stroke-dashoffset" values="{circ:.1f};{circ*(1-frac):.1f};{circ*(1-frac):.1f};{circ:.1f}" keyTimes="0;0.25;0.9;1" dur="8s" begin="{i*0.2}s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="{cx}" cy="{cy}" r="5" fill="{col}"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="{x+108}" y="{cy-4}" font-family="{SANS}" font-size="34" font-weight="800" fill="{C['txt']}">{num}</text>
+      <text x="{x+108}" y="{cy+18}" font-family="{SANS}" font-size="14" font-weight="600" fill="{col}">{lab}</text>
+      <text x="{x+108}" y="{cy+36}" font-family="{MONO}" font-size="11" fill="{C['mut']}">{sub}</text>
+    </g>''')
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="3,981 contributions in the last year; 464 commits, 295 pull requests and 17 repositories in October 2026">
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="{C['grid']}" stroke-width="1"/></pattern>
+    <clipPath id="frame"><rect width="{W}" height="{H}" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="{W}" height="{H}" fill="{C['bg0']}"/>
+    <rect width="{W}" height="{H}" fill="url(#grid)" opacity="0.35"/>
+    <circle cx="44" cy="40" r="5" fill="{C['grn']}"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="58" y="45" font-family="{MONO}" font-size="14" fill="{C['txt']}">TELEMETRY <tspan fill="{C['mut']}">// including private &amp; organisation work</tspan></text>
+    {''.join(out)}
+  </g>
+  <rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="18" fill="none" stroke="{C['grid']}"/>
+</svg>'''
+    write("telemetry.svg", svg)
+
+
 if __name__ == "__main__":
-    hero(); terminal(); pipeline(); architecture()
+    hero(); terminal(); pipeline(); architecture(); telemetry()
     print("ok")
