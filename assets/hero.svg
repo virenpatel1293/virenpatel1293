@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Viren Patel — Coder, Project Manager, DevOps">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060914"/><stop offset="1" stop-color="#0d1326"/></linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset="0.5" stop-color="#a78bfa"/><stop offset="1" stop-color="#34d399"/>
+      <animate attributeName="x1" values="0;600;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="620;1220;620" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1b2440" stroke-width="1"/></pattern>
+    <radialGradient id="orb1"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.35"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orb2"><stop offset="0" stop-color="#38bdf8" stop-opacity="0.28"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="core"><stop offset="0" stop-color="#1e293b"/><stop offset="1" stop-color="#060914"/></radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8" stop-opacity="0"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0.28"/></linearGradient>
+    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="1"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect width="1200" height="400" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#grid)" opacity="0.55"/>
+    <circle cx="260" cy="80" r="260" fill="url(#orb1)"><animate attributeName="cx" values="200;420;200" dur="14s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="330" r="280" fill="url(#orb2)"><animate attributeName="cy" values="360;220;360" dur="12s" repeatCount="indefinite"/></circle>
+
+    <!-- intro -->
+    <text x="70" y="92" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="17" fill="#38bdf8">&gt; hello, world — I'm<tspan fill="#38bdf8">_<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+    <text x="66" y="178" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="84" font-weight="800" fill="url(#name)" letter-spacing="-1">Viren Patel</text>
+    
+    <g opacity="1">
+      <animate attributeName="opacity" dur="9.0s" repeatCount="indefinite" keyTimes="0;0.303;0.333;0.97;1" values="1;1;0;0;1"/>
+      <rect x="70" y="222" rx="6" width="80.5" height="30" fill="#38bdf8" fill-opacity="0.14" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="84" y="243" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#38bdf8" letter-spacing="1.5">CODER</text>
+      <text x="166.5" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#e2e8f0">I write the code that ships.</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="9.0s" repeatCount="indefinite" keyTimes="0;0.333;0.363;0.636;0.666;1" values="0;0;1;1;0;0"/>
+      <rect x="70" y="222" rx="6" width="185.5" height="30" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.6"/>
+      <text x="84" y="243" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#a78bfa" letter-spacing="1.5">PROJECT MANAGER</text>
+      <text x="271.5" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#e2e8f0">I scope it, plan it, unblock the team.</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" dur="9.0s" repeatCount="indefinite" keyTimes="0;0.666;0.696;0.97;1" values="0;0;1;1;0"/>
+      <rect x="70" y="222" rx="6" width="91.0" height="30" fill="#34d399" fill-opacity="0.14" stroke="#34d399" stroke-opacity="0.6"/>
+      <text x="84" y="243" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="700" fill="#34d399" letter-spacing="1.5">DEVOPS</text>
+      <text x="177.0" y="244" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#e2e8f0">I build the pipeline &amp; keep prod green.</text>
+    </g>
+    
+    <g transform="translate(70,288)">
+      <rect width="228" height="38" rx="19" fill="#0f172a" stroke="#34d399" stroke-opacity="0.45"/>
+      <circle cx="18" cy="19" r="4" fill="#34d399"><animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="30" y="25" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#34d399">3.9k+ <tspan font-weight="400" font-size="14" fill="#e2e8f0">contributions / yr</tspan></text>
+    </g>
+    <g transform="translate(310.20000000000005,288)">
+      <rect width="199" height="38" rx="19" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.45"/>
+      <circle cx="18" cy="19" r="4" fill="#38bdf8"><animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="30" y="25" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#38bdf8">295 <tspan font-weight="400" font-size="14" fill="#e2e8f0">PRs opened in Oct</tspan></text>
+    </g>
+    <g transform="translate(521.0,288)">
+      <rect width="262" height="38" rx="19" fill="#0f172a" stroke="#a78bfa" stroke-opacity="0.45"/>
+      <circle cx="18" cy="19" r="4" fill="#a78bfa"><animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="30" y="25" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#a78bfa">16 <tspan font-weight="400" font-size="14" fill="#e2e8f0">repos shipped to in a month</tspan></text>
+    </g>
+
+    <!-- radar -->
+    <g>
+      <path d="M985 185 L1135 185 A150 150 0 0 0 1091 79 Z" fill="url(#sweep)">
+        <animateTransform attributeName="transform" type="rotate" from="0 985 185" to="-360 985 185" dur="5s" repeatCount="indefinite"/>
+      </path>
+      
+    <circle cx="985" cy="185" r="62" fill="none" stroke="#38bdf8" stroke-opacity="0.25" stroke-dasharray="3 6"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="0 985 185" to="360 985 185" dur="7s" repeatCount="indefinite"/>
+      <circle cx="1047" cy="185" r="7" fill="#38bdf8" filter="url(#glow)"/>
+      <circle cx="923" cy="185" r="3" fill="#38bdf8" opacity="0.6"/>
+    </g>
+    <rect x="961" y="114" width="48" height="18" rx="9" fill="#060914" stroke="#38bdf8" stroke-opacity="0.5"/>
+    <text x="985" y="127" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="1.5">CODE</text>
+    <circle cx="985" cy="185" r="102" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-dasharray="3 6"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="0 985 185" to="360 985 185" dur="11s" repeatCount="indefinite"/>
+      <circle cx="1087" cy="185" r="7" fill="#a78bfa" filter="url(#glow)"/>
+      <circle cx="883" cy="185" r="3" fill="#a78bfa" opacity="0.6"/>
+    </g>
+    <rect x="961" y="74" width="48" height="18" rx="9" fill="#060914" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="985" y="87" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="700" fill="#a78bfa" letter-spacing="1.5">PLAN</text>
+    <circle cx="985" cy="185" r="142" fill="none" stroke="#34d399" stroke-opacity="0.25" stroke-dasharray="3 6"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="0 985 185" to="360 985 185" dur="16s" repeatCount="indefinite"/>
+      <circle cx="1127" cy="185" r="7" fill="#34d399" filter="url(#glow)"/>
+      <circle cx="843" cy="185" r="3" fill="#34d399" opacity="0.6"/>
+    </g>
+    <rect x="961" y="34" width="48" height="18" rx="9" fill="#060914" stroke="#34d399" stroke-opacity="0.5"/>
+    <text x="985" y="47" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="700" fill="#34d399" letter-spacing="1.5">SHIP</text>
+      <circle cx="985" cy="185" r="34" fill="url(#core)" stroke="#38bdf8" stroke-opacity="0.7"/>
+      <circle cx="985" cy="185" r="34" fill="none" stroke="#38bdf8" stroke-opacity="0.5">
+        <animate attributeName="r" values="34;60" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.6;0" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="985" y="193" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="800" fill="#e2e8f0">VP</text>
+    </g>
+
+    <!-- status bar -->
+    <rect y="362" width="1200" height="38" fill="#000" fill-opacity="0.35"/>
+    <line x1="0" y1="362" x2="1200" y2="362" stroke="#1b2440"/>
+    <circle cx="34" cy="381" r="5" fill="#34d399"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="48" y="386" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#64748b"><tspan fill="#34d399">all systems operational</tspan>   │   build: <tspan fill="#34d399">passing</tspan>   │   deploys: <tspan fill="#38bdf8">zero-downtime</tspan>   │   timezone: <tspan fill="#e2e8f0">SAST (UTC+2)</tspan>   │   based in <tspan fill="#e2e8f0">Pretoria, ZA</tspan></text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="18" fill="none" stroke="#1b2440"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="476" viewBox="0 0 1000 476" role="img" aria-label="Terminal: whoami, stack, and a production deploy">
+  <defs><clipPath id="frame"><rect width="1000" height="476" rx="14"/></clipPath></defs>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="476" fill="#0b0f19"/>
+    <rect width="1000" height="40" fill="#151b2b"/>
+    <circle cx="24" cy="20" r="6.5" fill="#ff5f57"/><circle cx="46" cy="20" r="6.5" fill="#febc2e"/><circle cx="68" cy="20" r="6.5" fill="#28c840"/>
+    <text x="500.0" y="25" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#64748b">viren@prod: ~ — zsh</text>
+    
+    <clipPath id="c0"><rect x="62" y="58" height="26" width="0">
+      <animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.0364;0.0591;0.96;1" values="0;0;60;60;0"/></rect></clipPath>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.0364;0.0369;0.96;0.98;1" values="0;0;1;1;0;0"/>
+      <text x="28" y="76" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#34d399">❯</text>
+      <text x="44" y="76" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#38bdf8">~</text>
+      <text x="64" y="76" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#e2e8f0" clip-path="url(#c0)">whoami</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.0795;0.0895;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="101" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" xml:space="preserve"><tspan fill="#e2e8f0">viren_patel</tspan><tspan fill="#64748b">  // engineer · project manager · devops</tspan></text></g>
+    <clipPath id="c2"><rect x="62" y="108" height="26" width="0">
+      <animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.0923;0.1161;0.96;1" values="0;0;142;142;0"/></rect></clipPath>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.0923;0.0928;0.96;0.98;1" values="0;0;1;1;0;0"/>
+      <text x="28" y="126" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#34d399">❯</text>
+      <text x="44" y="126" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#38bdf8">~</text>
+      <text x="64" y="126" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#e2e8f0" clip-path="url(#c2)">cat ~/stack.yml</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.1366;0.1466;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="151" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" xml:space="preserve"><tspan fill="#a78bfa">frontend: </tspan><tspan fill="#e2e8f0">[next.js, react, expo, tailwind]</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.1493;0.1593;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="176" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" xml:space="preserve"><tspan fill="#a78bfa">backend:  </tspan><tspan fill="#e2e8f0">[node, .net c#, prisma, sql server, python]</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.1620;0.1720;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="201" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" xml:space="preserve"><tspan fill="#a78bfa">infra:    </tspan><tspan fill="#e2e8f0">[cloudflare workers, aws, pm2, github actions]</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.1748;0.1848;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="226" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" xml:space="preserve"><tspan fill="#a78bfa">ai:       </tspan><tspan fill="#e2e8f0">[mcp servers, agent tooling]</tspan></text></g>
+    <clipPath id="c7"><rect x="62" y="233" height="26" width="0">
+      <animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.1875;0.2766;0.96;1" values="0;0;513;513;0"/></rect></clipPath>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.1875;0.1880;0.96;0.98;1" values="0;0;1;1;0;0"/>
+      <text x="28" y="251" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#34d399">❯</text>
+      <text x="44" y="251" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#38bdf8">~</text>
+      <text x="64" y="251" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#e2e8f0" clip-path="url(#c7)">git log --author=viren --since=30.days --oneline | wc -l</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.2970;0.3070;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="276" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" xml:space="preserve"><tspan fill="#fbbf24">459</tspan><tspan fill="#64748b">  // commits across 16 repos</tspan></text></g>
+    <clipPath id="c9"><rect x="62" y="283" height="26" width="0">
+      <animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.3098;0.3511;0.96;1" values="0;0;241;241;0"/></rect></clipPath>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.3098;0.3103;0.96;0.98;1" values="0;0;1;1;0;0"/>
+      <text x="28" y="301" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#34d399">❯</text>
+      <text x="44" y="301" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#38bdf8">~</text>
+      <text x="64" y="301" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#e2e8f0" clip-path="url(#c9)">./ship.sh --env=production</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.3716;0.3816;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="326" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#34d399">✔</text><text x="66" y="326" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#e2e8f0">lint &amp; typecheck</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.4034;0.4134;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="351" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#34d399">✔</text><text x="66" y="351" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#e2e8f0">tests green</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.4352;0.4452;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="376" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#34d399">✔</text><text x="66" y="376" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#e2e8f0">build &amp; bundle</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.4670;0.4770;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="401" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#34d399">✔</text><text x="66" y="401" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#e2e8f0">deployed to the edge  ·  zero downtime  ·  team notified</text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.4989;0.4999;0.96;0.98;1" values="0;0;1;1;0;0"/>
+      <text x="28" y="426" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#34d399">❯</text>
+      <text x="44" y="426" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#38bdf8">~</text>
+      <rect x="64" y="412" width="9" height="18" fill="#e2e8f0"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="475" rx="14" fill="none" stroke="#243049"/>
+</svg>

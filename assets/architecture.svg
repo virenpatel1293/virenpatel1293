@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Architecture of the e-commerce platform I build and run">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#1b2440"/></pattern>
+    <clipPath id="frame"><rect width="1200" height="470" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="470" fill="#060914"/>
+    <rect width="1200" height="470" fill="url(#dots)"/>
+    <text x="40" y="46" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="800" fill="#e2e8f0">What I build &amp; run</text>
+    <text x="40" y="72" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="13" fill="#64748b">// a production e-commerce stack — from the edge to the database, plus the tooling that watches it</text>
+    <g font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="11" fill="#64748b">
+      <text x="40" y="104">CLIENT</text><text x="225" y="104">EDGE</text><text x="465" y="104">APPS</text><text x="725" y="104">SERVICES</text><text x="975" y="104">DATA</text>
+    </g>
+    <line x1="315" y1="271" x2="315" y2="370" stroke="#64748b" stroke-opacity="0.5" stroke-dasharray="2 5"/><line x1="565" y1="311" x2="565" y2="370" stroke="#64748b" stroke-opacity="0.5" stroke-dasharray="2 5"/><line x1="820" y1="311" x2="820" y2="370" stroke="#f472b6" stroke-opacity="0.5" stroke-dasharray="2 5"/><line x1="1067" y1="271" x2="1067" y2="370" stroke="#f472b6" stroke-opacity="0.5" stroke-dasharray="2 5"/>
+    <path d="M170 213 H225" fill="none" stroke="#f472b6" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="5 7">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="1.2s" repeatCount="indefinite"/></path><path d="M405 195 H435 V153 H465" fill="none" stroke="#fbbf24" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="5 7">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="1.2s" repeatCount="indefinite"/></path><path d="M405 231 H435 V273 H465" fill="none" stroke="#fbbf24" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="5 7">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="1.2s" repeatCount="indefinite"/></path><path d="M665 153 H725" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="5 7">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="1.2s" repeatCount="indefinite"/></path><path d="M665 273 H725" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="5 7">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="1.2s" repeatCount="indefinite"/></path><path d="M915 153 H945 V195 H975" fill="none" stroke="#a78bfa" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="5 7">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="1.2s" repeatCount="indefinite"/></path><path d="M915 273 H945 V231 H975" fill="none" stroke="#a78bfa" stroke-width="2" stroke-opacity="0.8" stroke-dasharray="5 7">
+      <animate attributeName="stroke-dashoffset" values="24;0" dur="1.2s" repeatCount="indefinite"/></path>
+    
+    <g>
+      <rect x="40" y="175" width="130" height="76" rx="12" fill="#0d1424" stroke="#f472b6" stroke-opacity="0.7"/>
+      <rect x="40" y="175" width="5" height="76" rx="2" fill="#f472b6"/>
+      <text x="107.0" y="211.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">Shoppers</text>
+      <text x="107.0" y="231.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b">web · mobile</text>
+    </g>
+    <g>
+      <rect x="225" y="155" width="180" height="116" rx="12" fill="#0d1424" stroke="#fbbf24" stroke-opacity="0.7"/>
+      <rect x="225" y="155" width="5" height="116" rx="2" fill="#fbbf24"/>
+      <text x="317.0" y="211.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">Cloudflare Edge</text>
+      <text x="317.0" y="231.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b">Workers · cache · rules</text>
+    </g>
+    <g>
+      <rect x="465" y="115" width="200" height="76" rx="12" fill="#0d1424" stroke="#38bdf8" stroke-opacity="0.7"/>
+      <rect x="465" y="115" width="5" height="76" rx="2" fill="#38bdf8"/>
+      <text x="567.0" y="151.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">Next.js Storefront</text>
+      <text x="567.0" y="171.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b">SSR · React · Tailwind</text>
+    </g>
+    <g>
+      <rect x="465" y="235" width="200" height="76" rx="12" fill="#0d1424" stroke="#38bdf8" stroke-opacity="0.7"/>
+      <rect x="465" y="235" width="5" height="76" rx="2" fill="#38bdf8"/>
+      <text x="567.0" y="271.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">Admin Portal</text>
+      <text x="567.0" y="291.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b">Next.js · .NET</text>
+    </g>
+    <g>
+      <rect x="725" y="115" width="190" height="76" rx="12" fill="#0d1424" stroke="#a78bfa" stroke-opacity="0.7"/>
+      <rect x="725" y="115" width="5" height="76" rx="2" fill="#a78bfa"/>
+      <text x="822.0" y="151.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">Node + Prisma API</text>
+      <text x="822.0" y="171.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b">REST · auth · cart</text>
+    </g>
+    <g>
+      <rect x="725" y="235" width="190" height="76" rx="12" fill="#0d1424" stroke="#a78bfa" stroke-opacity="0.7"/>
+      <rect x="725" y="235" width="5" height="76" rx="2" fill="#a78bfa"/>
+      <text x="822.0" y="271.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">.NET Services</text>
+      <text x="822.0" y="291.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b">C# · back-office</text>
+    </g>
+    <g>
+      <rect x="975" y="155" width="185" height="116" rx="12" fill="#0d1424" stroke="#34d399" stroke-opacity="0.7"/>
+      <rect x="975" y="155" width="5" height="116" rx="2" fill="#34d399"/>
+      <text x="1069.5" y="211.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#e2e8f0">SQL Server</text>
+      <text x="1069.5" y="231.0" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#64748b">orders · stock · users</text>
+    </g>
+    
+    <g>
+      <rect x="225" y="370" width="440" height="64" rx="12" fill="#34d399" fill-opacity="0.06" stroke="#34d399" stroke-opacity="0.5" stroke-dasharray="4 4"/>
+      <text x="245" y="397" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="700" fill="#34d399" letter-spacing="1.5">OBSERVABILITY</text>
+      <text x="245" y="418" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#e2e8f0">AWS ELB log analysis · PM2 monitor · devwatcher traces</text>
+      <rect x="725" y="370" width="435" height="64" rx="12" fill="#f472b6" fill-opacity="0.06" stroke="#f472b6" stroke-opacity="0.5" stroke-dasharray="4 4"/>
+      <text x="745" y="397" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="12" font-weight="700" fill="#f472b6" letter-spacing="1.5">AI AGENTS · MCP</text>
+      <text x="745" y="418" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#e2e8f0">repoflow · expo-dev · devwatcher · task trackers</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="469" rx="18" fill="none" stroke="#1b2440"/>
+</svg>
