@@ -1,0 +1,43 @@
+name: Refresh live profile stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily, 05:17 SAST
+  workflow_dispatch:        # manual "Run workflow" button
+
+# Least privilege: the built-in token can only push to this repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    # Only ever runs in your own repo (never in forks).
+    if: github.repository == 'virenpatel1293/virenpatel1293'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out (pinned to a full commit SHA)
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: true
+
+      - name: Fetch numbers and redraw SVGs
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}   # only this step can see it
+        run: python3 scripts/update_stats.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.json assets/*.svg
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: refresh live profile stats [skip ci]"
+            git push
+          fi
