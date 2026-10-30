@@ -119,15 +119,10 @@
 
 <br/>
 
-## 📡 Live telemetry
+## 📡 Telemetry
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=virenpatel1293&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=060914&title_color=38bdf8&icon_color=a78bfa&text_color=e2e8f0" />
-  <img height="165" src="https://streak-stats.demolab.com?user=virenpatel1293&theme=tokyonight&hide_border=true&background=060914&ring=38BDF8&fire=A78BFA&currStreakLabel=38BDF8" />
-</p>
-
-<p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=virenpatel1293&bg_color=060914&color=38bdf8&line=a78bfa&point=34d399&area=true&area_color=a78bfa&hide_border=true" />
+  <img src="./assets/telemetry.svg" alt="3,981 contributions in the last year; 464 commits, 295 PRs and 17 repos in October 2026" width="100%" />
 </p>
 
 <p align="center">
