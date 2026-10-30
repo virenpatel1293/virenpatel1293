@@ -27,14 +27,20 @@ jobs:
 
       - name: Fetch numbers and redraw SVGs
         env:
-          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}   # only this step can see it
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}   # step-scoped, never job-wide
         run: python3 scripts/update_stats.py
+
+      - name: Rebuild Mission log (README)
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          SHOWCASE_CONFIG: ${{ secrets.SHOWCASE_CONFIG }}   # secret: keeps repo names out of public logs
+        run: python3 scripts/update_showcase.py
 
       - name: Commit if anything changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.json assets/*.svg
+          git add assets/stats.json assets/*.svg README.md
           if git diff --cached --quiet; then
             echo "No changes."
           else
