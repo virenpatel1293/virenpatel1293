@@ -65,6 +65,7 @@
 
 ## 🛰️ Mission log
 
+<!-- MISSION-LOG:START -->
 <table>
   <tr valign="top">
     <td width="50%">
@@ -99,7 +100,8 @@
   </tr>
 </table>
 
-<sub>🔒 Most of this lives in private &amp; organisation repos — happy to demo any of it on a call.</sub>
+<sub>🔒 Most of this lives in private &amp; organisation repos — happy to demo any of it on a call. &nbsp;·&nbsp; 🟢 pushed this week &nbsp;🟡 this month &nbsp;⚪ earlier &nbsp;🆕 new &nbsp;·&nbsp; auto-updated 2026-10-30</sub>
+<!-- MISSION-LOG:END -->
 
 <br/><br/>
 
