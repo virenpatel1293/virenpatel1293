@@ -1,10 +1,13 @@
 """Rebuild the "Mission log" section of README.md from showcase.json + live repo data.
 
-- Projects listed in showcase.json keep their hand-written blurbs and get a live
+- Projects listed in the SHOWCASE_CONFIG secret (JSON, same shape as
+  showcase.example.json) keep their hand-written blurbs and get a live
   activity dot from the repo's last push.
 - Any of your repos with the topic `showcase` plus a category topic
   (devops / ai / product / game) is added automatically, using its description.
-- Nothing is published unless it is in showcase.json or tagged `showcase`.
+- Nothing is published unless it is in the config or tagged `showcase`.
+- The config lives in a secret so private / organisation repo names are never
+  stored in this public repo or shown in the (public) Actions logs.
 
 Security: standard library only; the token (STATS_TOKEN) is sent only to
 api.github.com and never printed. Logs show counts only, no repo names.
@@ -20,7 +23,6 @@ import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 README = os.path.join(ROOT, "README.md")
-CONFIG = os.path.join(ROOT, "showcase.json")
 START, END = "<!-- MISSION-LOG:START -->", "<!-- MISSION-LOG:END -->"
 
 QUERY = """
@@ -161,8 +163,13 @@ def main():
     token = os.environ.get("STATS_TOKEN", "").strip()
     if not token:
         sys.exit("STATS_TOKEN secret is not set.")
-    with open(CONFIG, encoding="utf-8") as f:
-        cfg = json.load(f)
+    raw = os.environ.get("SHOWCASE_CONFIG", "").strip()
+    if not raw:
+        sys.exit("SHOWCASE_CONFIG secret is not set.")
+    try:
+        cfg = json.loads(raw)
+    except json.JSONDecodeError as e:  # report position only, never the content
+        sys.exit(f"SHOWCASE_CONFIG is not valid JSON (line {e.lineno}, column {e.colno}).")
     now = dt.datetime.now(dt.timezone.utc)
     login, repos = fetch_repos(token)
     section, count = build(cfg, login, repos, now)
