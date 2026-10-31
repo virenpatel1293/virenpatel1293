@@ -90,20 +90,20 @@
     <td width="50%">
       <h4>🛒 Product Engineering <sub>· 1 active this week</sub></h4>
       <b>Storefront &amp; Admin</b> — Next.js + Prisma API + .NET admin for high-traffic e-commerce <sub>🟢 today</sub><br/>
-      <b>Party@Janvi</b> — rental-management Android app for a real party-hire business <sub>🟡 14d ago 🆕</sub><br/>
-      <b>StockMaster</b> — Python stock &amp; market-data tooling <sub>🟡 14d ago 🆕</sub><br/>
+      <b>Party@Janvi</b> — rental-management Android app for a real party-hire business <sub>🟡 15d ago 🆕</sub><br/>
+      <b>StockMaster</b> — Python stock &amp; market-data tooling <sub>🟡 15d ago 🆕</sub><br/>
       <b>face3d</b> — desktop app turning fixed-angle photos into a 3D head model <sub>🟡 24d ago 🆕</sub>
     </td>
     <td width="50%">
       <h4>🎮 After Hours — Game Dev <sub>· 1 active this week</sub></h4>
       <b>REVOLUTION</b> — civilisation-building strategy game: cave-dwellers → smart city (Unity · C#) <sub>🟢 yesterday 🆕</sub><br/>
       <b>game-asset-mcp</b> — an AI agent that sources free models &amp; textures for my games <sub>🟡 8d ago 🆕</sub><br/>
-      <b>Ashes of Tomorrow</b> — mobile survival game (Godot) <sub>🟡 8d ago 🆕</sub>
+      <b>Ashes of Tomorrow</b> — mobile survival game (Godot) <sub>🟡 9d ago 🆕</sub>
     </td>
   </tr>
 </table>
 
-<sub>🔒 Most of this lives in private &amp; organisation repos — happy to demo any of it on a call. &nbsp;·&nbsp; 🟢 pushed this week &nbsp;🟡 this month &nbsp;⚪ earlier &nbsp;🆕 new &nbsp;·&nbsp; auto-updated 2026-10-30</sub>
+<sub>🔒 Most of this lives in private &amp; organisation repos — happy to demo any of it on a call. &nbsp;·&nbsp; 🟢 pushed this week &nbsp;🟡 this month &nbsp;⚪ earlier &nbsp;🆕 new &nbsp;·&nbsp; auto-updated 2026-10-31</sub>
 <!-- MISSION-LOG:END -->
 
 <br/><br/>
