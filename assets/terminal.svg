@@ -32,7 +32,7 @@
       <text x="44" y="251" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#38bdf8">~</text>
       <text x="64" y="251" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" fill="#e2e8f0" clip-path="url(#c7)">git log --author=viren --since=30.days --oneline | wc -l</text>
     </g>
-    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.2970;0.3070;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="276" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" xml:space="preserve"><tspan fill="#fbbf24">565</tspan><tspan fill="#64748b">  // commits across 18 repos</tspan></text></g>
+    <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.2970;0.3070;0.96;0.98;1" values="0;0;1;1;0;0"/><text x="44" y="276" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="15" xml:space="preserve"><tspan fill="#fbbf24">573</tspan><tspan fill="#64748b">  // commits across 18 repos</tspan></text></g>
     <clipPath id="c9"><rect x="62" y="283" height="26" width="0">
       <animate attributeName="width" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.3098;0.3511;0.96;1" values="0;0;241;241;0"/></rect></clipPath>
     <g opacity="0"><animate attributeName="opacity" dur="22.0s" repeatCount="indefinite" keyTimes="0;0.3098;0.3103;0.96;0.98;1" values="0;0;1;1;0;0"/>
