@@ -78,11 +78,11 @@
     </td>
     <td width="50%">
       <h4>🤖 AI Tooling (MCP servers)</h4>
-      <b>video-analyzer-mcp</b> — lets AI agents “watch” videos — ffmpeg frames, labelled by timestamp <sub>🟡 12d ago 🆕</sub><br/>
-      <b>devwatcher-mcp</b> — per-page traffic: loops, payload sizes, timing &amp; security risks <sub>🟡 25d ago 🆕</sub><br/>
-      <b>expo-dev-mcp</b> — analyses an Expo app &amp; runs it on a simulator <sub>🟡 26d ago 🆕</sub><br/>
-      <b>repoflow-mcp</b> — visualises any repo's structure &amp; flow <sub>🟡 28d ago 🆕</sub><br/>
-      <b>github-task-tracker · google-tasks-mcp</b> — agents ↔ the team backlog <sub>🟡 28d ago</sub><br/>
+      <b>video-analyzer-mcp</b> — lets AI agents “watch” videos — ffmpeg frames, labelled by timestamp <sub>🟡 13d ago 🆕</sub><br/>
+      <b>devwatcher-mcp</b> — per-page traffic: loops, payload sizes, timing &amp; security risks <sub>🟡 26d ago 🆕</sub><br/>
+      <b>expo-dev-mcp</b> — analyses an Expo app &amp; runs it on a simulator <sub>🟡 27d ago 🆕</sub><br/>
+      <b>repoflow-mcp</b> — visualises any repo's structure &amp; flow <sub>🟡 29d ago 🆕</sub><br/>
+      <b>github-task-tracker · google-tasks-mcp</b> — agents ↔ the team backlog <sub>🟡 29d ago</sub><br/>
       <b>Session Vault</b> — browse, back up &amp; restore Claude Code chat sessions per project — fully local <sub>⚪ 1mo ago</sub>
     </td>
   </tr>
@@ -90,20 +90,20 @@
     <td width="50%">
       <h4>🛒 Product Engineering <sub>· 1 active this week</sub></h4>
       <b>Storefront &amp; Admin</b> — Next.js + Prisma API + .NET admin for high-traffic e-commerce <sub>🟢 today</sub><br/>
-      <b>Party@Janvi</b> — rental-management Android app for a real party-hire business <sub>🟡 26d ago 🆕</sub><br/>
-      <b>StockMaster</b> — Python stock &amp; market-data tooling <sub>🟡 26d ago 🆕</sub><br/>
+      <b>Party@Janvi</b> — rental-management Android app for a real party-hire business <sub>🟡 27d ago 🆕</sub><br/>
+      <b>StockMaster</b> — Python stock &amp; market-data tooling <sub>🟡 27d ago 🆕</sub><br/>
       <b>face3d</b> — desktop app turning fixed-angle photos into a 3D head model <sub>⚪ 1mo ago</sub>
     </td>
     <td width="50%">
       <h4>🎮 After Hours — Game Dev <sub>· 1 active this week</sub></h4>
       <b>REVOLUTION</b> — civilisation-building strategy game: cave-dwellers → smart city (Unity · C#) <sub>🟢 today 🆕</sub><br/>
-      <b>game-asset-mcp</b> — an AI agent that sources free models &amp; textures for my games <sub>🟡 19d ago 🆕</sub><br/>
-      <b>Ashes of Tomorrow</b> — mobile survival game (Godot) <sub>🟡 20d ago 🆕</sub>
+      <b>game-asset-mcp</b> — an AI agent that sources free models &amp; textures for my games <sub>🟡 20d ago 🆕</sub><br/>
+      <b>Ashes of Tomorrow</b> — mobile survival game (Godot) <sub>🟡 21d ago 🆕</sub>
     </td>
   </tr>
 </table>
 
-<sub>🔒 Most of this lives in private &amp; organisation repos — happy to demo any of it on a call. &nbsp;·&nbsp; 🟢 pushed this week &nbsp;🟡 this month &nbsp;⚪ earlier &nbsp;🆕 new &nbsp;·&nbsp; auto-updated 2026-11-11</sub>
+<sub>🔒 Most of this lives in private &amp; organisation repos — happy to demo any of it on a call. &nbsp;·&nbsp; 🟢 pushed this week &nbsp;🟡 this month &nbsp;⚪ earlier &nbsp;🆕 new &nbsp;·&nbsp; auto-updated 2026-11-12</sub>
 <!-- MISSION-LOG:END -->
 
 <br/><br/>
