@@ -47,17 +47,17 @@
     <g transform="translate(70,288)">
       <rect width="228" height="38" rx="19" fill="#0f172a" stroke="#34d399" stroke-opacity="0.45"/>
       <circle cx="18" cy="19" r="4" fill="#34d399"><animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/></circle>
-      <text x="30" y="25" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#34d399">4,081 <tspan font-weight="400" font-size="14" fill="#e2e8f0">contributions / yr</tspan></text>
+      <text x="30" y="25" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#34d399">4,123 <tspan font-weight="400" font-size="14" fill="#e2e8f0">contributions / yr</tspan></text>
     </g>
     <g transform="translate(310.20000000000005,288)">
       <rect width="243" height="38" rx="19" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.45"/>
       <circle cx="18" cy="19" r="4" fill="#38bdf8"><animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/></circle>
-      <text x="30" y="25" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#38bdf8">398 <tspan font-weight="400" font-size="14" fill="#e2e8f0">PRs in the last 30 days</tspan></text>
+      <text x="30" y="25" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#38bdf8">407 <tspan font-weight="400" font-size="14" fill="#e2e8f0">PRs in the last 30 days</tspan></text>
     </g>
     <g transform="translate(565.4000000000001,288)">
       <rect width="262" height="38" rx="19" fill="#0f172a" stroke="#a78bfa" stroke-opacity="0.45"/>
       <circle cx="18" cy="19" r="4" fill="#a78bfa"><animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/></circle>
-      <text x="30" y="25" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#a78bfa">18 <tspan font-weight="400" font-size="14" fill="#e2e8f0">repos shipped to in 30 days</tspan></text>
+      <text x="30" y="25" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#a78bfa">17 <tspan font-weight="400" font-size="14" fill="#e2e8f0">repos shipped to in 30 days</tspan></text>
     </g>
 
     <!-- radar -->
