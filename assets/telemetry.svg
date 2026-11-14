@@ -7,7 +7,7 @@
     <rect width="1200" height="250" fill="#060914"/>
     <rect width="1200" height="250" fill="url(#grid)" opacity="0.35"/>
     <circle cx="44" cy="40" r="5" fill="#34d399"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></circle>
-    <text x="58" y="45" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#e2e8f0">TELEMETRY <tspan fill="#64748b">// including private &amp; organisation work · auto-updated 2026-11-13</tspan></text>
+    <text x="58" y="45" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="14" fill="#e2e8f0">TELEMETRY <tspan fill="#64748b">// including private &amp; organisation work · auto-updated 2026-11-14</tspan></text>
     
     <g>
       <rect x="42" y="70" width="264" height="140" rx="14" fill="#0d1424" stroke="#34d399" stroke-opacity="0.35"/>
@@ -17,7 +17,7 @@
         <animate attributeName="stroke-dashoffset" values="213.6;17.1;17.1;213.6" keyTimes="0;0.25;0.9;1" dur="8s" begin="0.0s" repeatCount="indefinite"/>
       </circle>
       <circle cx="100" cy="140" r="5" fill="#34d399"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
-      <text x="150" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#e2e8f0">4,123</text>
+      <text x="150" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#e2e8f0">4,151</text>
       <text x="150" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#34d399">contributions</text>
       <text x="150" y="176" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="11" fill="#64748b">last 12 months</text>
     </g>
@@ -29,7 +29,7 @@
         <animate attributeName="stroke-dashoffset" values="213.6;47.0;47.0;213.6" keyTimes="0;0.25;0.9;1" dur="8s" begin="0.2s" repeatCount="indefinite"/>
       </circle>
       <circle cx="388" cy="140" r="5" fill="#38bdf8"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
-      <text x="438" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#e2e8f0">567</text>
+      <text x="438" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#e2e8f0">563</text>
       <text x="438" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#38bdf8">commits</text>
       <text x="438" y="176" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="11" fill="#64748b">last 30 days</text>
     </g>
@@ -41,7 +41,7 @@
         <animate attributeName="stroke-dashoffset" values="213.6;64.1;64.1;213.6" keyTimes="0;0.25;0.9;1" dur="8s" begin="0.4s" repeatCount="indefinite"/>
       </circle>
       <circle cx="676" cy="140" r="5" fill="#a78bfa"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
-      <text x="726" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#e2e8f0">407</text>
+      <text x="726" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#e2e8f0">414</text>
       <text x="726" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#a78bfa">pull requests</text>
       <text x="726" y="176" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="11" fill="#64748b">last 30 days</text>
     </g>
@@ -53,7 +53,7 @@
         <animate attributeName="stroke-dashoffset" values="213.6;85.5;85.5;213.6" keyTimes="0;0.25;0.9;1" dur="8s" begin="0.6000000000000001s" repeatCount="indefinite"/>
       </circle>
       <circle cx="964" cy="140" r="5" fill="#fbbf24"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
-      <text x="1014" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#e2e8f0">17</text>
+      <text x="1014" y="136" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="800" fill="#e2e8f0">16</text>
       <text x="1014" y="158" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#fbbf24">repositories</text>
       <text x="1014" y="176" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, 'DejaVu Sans Mono', monospace" font-size="11" fill="#64748b">contributed to · 30 days</text>
     </g>
