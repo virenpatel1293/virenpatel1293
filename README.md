@@ -78,7 +78,7 @@
     </td>
     <td width="50%">
       <h4>🤖 AI Tooling (MCP servers)</h4>
-      <b>video-analyzer-mcp</b> — lets AI agents “watch” videos — ffmpeg frames, labelled by timestamp <sub>🟡 20d ago 🆕</sub><br/>
+      <b>video-analyzer-mcp</b> — lets AI agents “watch” videos — ffmpeg frames, labelled by timestamp <sub>🟡 21d ago 🆕</sub><br/>
       <b>devwatcher-mcp</b> — per-page traffic: loops, payload sizes, timing &amp; security risks <sub>⚪ 1mo ago</sub><br/>
       <b>expo-dev-mcp</b> — analyses an Expo app &amp; runs it on a simulator <sub>⚪ 1mo ago</sub><br/>
       <b>repoflow-mcp</b> — visualises any repo's structure &amp; flow <sub>⚪ 1mo ago</sub><br/>
@@ -96,14 +96,14 @@
     </td>
     <td width="50%">
       <h4>🎮 After Hours — Game Dev <sub>· 1 active this week</sub></h4>
-      <b>REVOLUTION</b> — civilisation-building strategy game: cave-dwellers → smart city (Unity · C#) <sub>🟢 6d ago</sub><br/>
-      <b>game-asset-mcp</b> — an AI agent that sources free models &amp; textures for my games <sub>🟡 27d ago</sub><br/>
-      <b>Ashes of Tomorrow</b> — mobile survival game (Godot) <sub>🟡 28d ago</sub>
+      <b>REVOLUTION</b> — civilisation-building strategy game: cave-dwellers → smart city (Unity · C#) <sub>🟢 7d ago</sub><br/>
+      <b>game-asset-mcp</b> — an AI agent that sources free models &amp; textures for my games <sub>🟡 28d ago</sub><br/>
+      <b>Ashes of Tomorrow</b> — mobile survival game (Godot) <sub>🟡 29d ago</sub>
     </td>
   </tr>
 </table>
 
-<sub>🔒 Most of this lives in private &amp; organisation repos — happy to demo any of it on a call. &nbsp;·&nbsp; 🟢 pushed this week &nbsp;🟡 this month &nbsp;⚪ earlier &nbsp;🆕 new &nbsp;·&nbsp; auto-updated 2026-11-19</sub>
+<sub>🔒 Most of this lives in private &amp; organisation repos — happy to demo any of it on a call. &nbsp;·&nbsp; 🟢 pushed this week &nbsp;🟡 this month &nbsp;⚪ earlier &nbsp;🆕 new &nbsp;·&nbsp; auto-updated 2026-11-20</sub>
 <!-- MISSION-LOG:END -->
 
 <br/><br/>
